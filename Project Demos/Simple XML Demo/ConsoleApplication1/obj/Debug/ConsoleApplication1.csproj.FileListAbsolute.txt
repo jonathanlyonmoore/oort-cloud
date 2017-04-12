@@ -1,0 +1,12 @@
+C:\Users\Jonathan Moore\Desktop\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\Jonathan Moore\Desktop\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\Jonathan Moore\Desktop\ConsoleApplication1\ConsoleApplication1\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Jonathan Moore\Desktop\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Users\Jonathan Moore\Desktop\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Simple XML Demo\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Simple XML Demo\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Simple XML Demo\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Simple XML Demo\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Simple XML Demo\ConsoleApplication1\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Project Demos\Simple XML Demo\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Project Demos\Simple XML Demo\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb

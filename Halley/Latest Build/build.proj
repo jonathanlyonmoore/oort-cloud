@@ -1,0 +1,33 @@
+<Project DefaultTargets="BuildAll" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <WixDir>Shared\Wix</WixDir>
+    
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Projects Include ="**\*.*csproj">
+    </Projects>	
+  </ItemGroup>
+
+  <Target Name="CleanAll">
+    <MSBuild Projects="@(Projects)" Targets="Clean" />
+  </Target>
+
+  <Target Name="BuildAll" DependsOnTargets="CleanAll;BuildConstOne;Build" />
+  
+  <Target Name="BuildConstOne">
+    <MSBuild Projects="@(Projects)"
+             Properties="Configuration=$(Configuration)"/>
+  </Target>
+
+
+  <Target Name="Build">
+   
+   <Exec Command="$(WixDir)\candle.exe Halley.wxs" />
+   <Exec Command="$(WixDir)\light.exe -ext WixUIExtension -cultures:en-us Halley.wixobj -out Halley.msi" />
+
+ 
+   
+  </Target>
+</Project>

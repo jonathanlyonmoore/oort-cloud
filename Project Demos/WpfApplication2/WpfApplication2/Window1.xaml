@@ -1,0 +1,810 @@
+﻿<Window
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	x:Class="WpfApplication2.Window1"
+	x:Name="Window"
+	Title="Window1"
+	Width="640" Height="480">
+
+	<Canvas x:Name="Swift3DCanvas" ClipToBounds="true" Width="400" Height="300" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:d="http://schemas.microsoft.com/expression/interactivedesigner/2006" xmlns:c="http://schemas.openxmlformats.org/markup-compatibility/2006" c:Ignorable="d">
+	<Canvas.Background>
+		<SolidColorBrush Color="#808080" Opacity="1"/>
+	</Canvas.Background>
+	<Canvas.Resources>
+		<SolidColorBrush x:Key="Brush0"  Color="#000000" Opacity="0"/>
+		<LinearGradientBrush x:Key="Brush1"  MappingMode="Absolute" StartPoint="241.32,227.51" EndPoint="256.67,64.27">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FF820000"/>
+				<GradientStop Offset="1" Color="#FFAD0101"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="Brush2"  MappingMode="Absolute" StartPoint="118.57,179.12" EndPoint="119.64,179.62">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FF5D0000"/>
+				<GradientStop Offset="1" Color="#FF860000"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="Brush3"  MappingMode="Absolute" StartPoint="118.57,179.12" EndPoint="120.02,179.79">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FF5D0000"/>
+				<GradientStop Offset="1" Color="#FF860000"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<SolidColorBrush x:Key="Brush4"  Color="#000000" Opacity="1"/>
+		<LinearGradientBrush x:Key="Brush5"  MappingMode="Absolute" StartPoint="241.32,227.51" EndPoint="328.28,174.8">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FF820000"/>
+				<GradientStop Offset="1" Color="#FFE63C3C"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="Brush6"  MappingMode="Absolute" StartPoint="216.43,229.08" EndPoint="98.19,128.55">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FF7F0000"/>
+				<GradientStop Offset="1" Color="#FFEF3E3E"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="Brush7"  MappingMode="Absolute" StartPoint="232.04,223.8" EndPoint="217.05,215.92">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FF1F0000"/>
+				<GradientStop Offset="1" Color="#FF3A0000"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="Brush8"  MappingMode="Absolute" StartPoint="232.04,223.8" EndPoint="197.53,192.37">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FF1F0000"/>
+				<GradientStop Offset="1" Color="#FF3A0000"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="Brush9"  MappingMode="Absolute" StartPoint="216.43,229.08" EndPoint="260.73,91.76">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FF7F0000"/>
+				<GradientStop Offset="1" Color="#FFEF3E3E"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="Brush10"  MappingMode="Absolute" StartPoint="259.26,224.94" EndPoint="310.6,103.51">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FF770000"/>
+				<GradientStop Offset="1" Color="#FFFFD3D3"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="Brush11"  MappingMode="Absolute" StartPoint="105.23,180.79" EndPoint="169.11,194.37">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FF7E0000"/>
+				<GradientStop Offset="1" Color="#FF970000"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="Brush12"  MappingMode="Absolute" StartPoint="105.23,180.79" EndPoint="157.05,196.13">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FF7E0000"/>
+				<GradientStop Offset="1" Color="#FF970000"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="Brush13"  MappingMode="Absolute" StartPoint="259.26,224.94" EndPoint="148.91,181.17">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FF770000"/>
+				<GradientStop Offset="1" Color="#FFFFD3D3"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="Brush14"  MappingMode="Absolute" StartPoint="268.2,221.83" EndPoint="264.58,55.86">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FF6F0000"/>
+				<GradientStop Offset="1" Color="#FF950000"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="Brush15"  MappingMode="Absolute" StartPoint="101.94,182.72" EndPoint="160.42,222.99">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FF960000"/>
+				<GradientStop Offset="1" Color="#FFAB1515"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="Brush16"  MappingMode="Absolute" StartPoint="101.94,182.72" EndPoint="115.69,46.26">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FF960000"/>
+				<GradientStop Offset="1" Color="#FF9F0000"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="Brush17"  MappingMode="Absolute" StartPoint="268.2,221.83" EndPoint="167.45,101.07">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FF6F0000"/>
+				<GradientStop Offset="1" Color="#FF950000"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="Brush18"  MappingMode="Absolute" StartPoint="267.56,174.13" EndPoint="149.48,136.19">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FFC30C0C"/>
+				<GradientStop Offset="1" Color="#FFD72323"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="Brush19"  MappingMode="Absolute" StartPoint="251.2,61.39" EndPoint="214.57,206.91">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FFCE0000"/>
+				<GradientStop Offset="1" Color="#FFD72323"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="Brush20"  MappingMode="Absolute" StartPoint="267.99,218.67" EndPoint="179.51,172.48">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FF5D0000"/>
+				<GradientStop Offset="1" Color="#FF890000"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="Brush21"  MappingMode="Absolute" StartPoint="238.91,58.69" EndPoint="286.92,145.66">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FFC20101"/>
+				<GradientStop Offset="1" Color="#FFFF6F6F"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="Brush22"  MappingMode="Absolute" StartPoint="238.91,58.69" EndPoint="252.03,167.74">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FFC20101"/>
+				<GradientStop Offset="1" Color="#FFEB3939"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="Brush23"  MappingMode="Absolute" StartPoint="267.99,218.67" EndPoint="224.54,214.67">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FF5D0000"/>
+				<GradientStop Offset="1" Color="#FF890000"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="Brush24"  MappingMode="Absolute" StartPoint="141.42,69.51" EndPoint="153.89,188.94">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FFC90000"/>
+				<GradientStop Offset="1" Color="#FFE12F2F"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="Brush25"  MappingMode="Absolute" StartPoint="122.19,127.13" EndPoint="161.08,106.41">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FF560000"/>
+				<GradientStop Offset="1" Color="#FF7A0000"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="Brush26"  MappingMode="Absolute" StartPoint="256.17,64.47" EndPoint="326.68,136.03">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FFCB0202"/>
+				<GradientStop Offset="1" Color="#FFFF8888"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="Brush27"  MappingMode="Absolute" StartPoint="141.56,228.49" EndPoint="177.31,214.43">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FF4B0000"/>
+				<GradientStop Offset="1" Color="#FF600000"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="Brush28"  MappingMode="Absolute" StartPoint="253.91,67.5" EndPoint="249.43,189.46">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FFAA0000"/>
+				<GradientStop Offset="1" Color="#FFE14343"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="Brush29"  MappingMode="Absolute" StartPoint="206.01,187.87" EndPoint="238.57,93.59">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FF670000"/>
+				<GradientStop Offset="1" Color="#FF870000"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="Brush30"  MappingMode="Absolute" StartPoint="297.22,171.51" EndPoint="210.02,200.11">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FFA10000"/>
+				<GradientStop Offset="1" Color="#FFE14343"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="Brush31"  MappingMode="Absolute" StartPoint="139.66,231.42" EndPoint="154,132.94">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FF5C0000"/>
+				<GradientStop Offset="1" Color="#FF700000"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="Brush32"  MappingMode="Absolute" StartPoint="232.04,72.18" EndPoint="220.78,76.8">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FF6D0000"/>
+				<GradientStop Offset="1" Color="#FF900000"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="Brush33"  MappingMode="Absolute" StartPoint="273.01,185.77" EndPoint="231.39,61.19">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FF6A0000"/>
+				<GradientStop Offset="1" Color="#FF8A0000"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="Brush34"  MappingMode="Absolute" StartPoint="277.87,169.08" EndPoint="267.71,173.46">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FF640000"/>
+				<GradientStop Offset="1" Color="#FF7D0000"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="Brush35"  MappingMode="Absolute" StartPoint="157.73,236.91" EndPoint="132.93,116.75">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FF610000"/>
+				<GradientStop Offset="1" Color="#FF860000"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="Brush36"  MappingMode="Absolute" StartPoint="245.38,70.15" EndPoint="190.33,78.6">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FF8A0000"/>
+				<GradientStop Offset="1" Color="#FF980000"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="Brush37"  MappingMode="Absolute" StartPoint="243.69,187.2" EndPoint="269.99,87.44">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FF5A0000"/>
+				<GradientStop Offset="1" Color="#FFAF3535"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="Brush38"  MappingMode="Absolute" StartPoint="292.56,170.19" EndPoint="242.25,178.93">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FF830000"/>
+				<GradientStop Offset="1" Color="#FF8F0000"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="Brush39"  MappingMode="Absolute" StartPoint="145.04,234.37" EndPoint="97.02,125.07">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FF590000"/>
+				<GradientStop Offset="1" Color="#FF770000"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="Brush40"  MappingMode="Absolute" StartPoint="217.25,73.34" EndPoint="218.61,76.48">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FF5D0000"/>
+				<GradientStop Offset="1" Color="#FF760000"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="Brush41"  MappingMode="Absolute" StartPoint="288.87,184.08" EndPoint="303.78,76.58">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FF710000"/>
+				<GradientStop Offset="1" Color="#FF930202"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="Brush42"  MappingMode="Absolute" StartPoint="120.35,116.99" EndPoint="121.86,120.55">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FF690000"/>
+				<GradientStop Offset="1" Color="#FF910000"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="Brush43"  MappingMode="Absolute" StartPoint="174.35,238.52" EndPoint="181.14,125.15">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FF600000"/>
+				<GradientStop Offset="1" Color="#FF7E0000"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="Brush44"  MappingMode="Absolute" StartPoint="201.07,73.82" EndPoint="205.2,86.54">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FF7B0000"/>
+				<GradientStop Offset="1" Color="#FF940000"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="Brush45"  MappingMode="Absolute" StartPoint="294.03,182.28" EndPoint="328.02,99.27">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FF6A0000"/>
+				<GradientStop Offset="1" Color="#FF9F1717"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="Brush46"  MappingMode="Absolute" StartPoint="107.18,115.39" EndPoint="112.43,131.51">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FF8F0000"/>
+				<GradientStop Offset="1" Color="#FFAA0000"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="Brush47"  MappingMode="Absolute" StartPoint="193.98,239.21" EndPoint="229.67,203.48">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FF300000"/>
+				<GradientStop Offset="1" Color="#FF470000"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="Brush48"  MappingMode="Absolute" StartPoint="193.98,239.21" EndPoint="227.34,150.99">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FF590000"/>
+				<GradientStop Offset="1" Color="#FF6B0101"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="Brush49"  MappingMode="Absolute" StartPoint="148.4,213.85" EndPoint="179.76,176.76">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FF2C0000"/>
+				<GradientStop Offset="1" Color="#FF3D0000"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="Brush50"  MappingMode="Absolute" StartPoint="269.12,75.78" EndPoint="269.24,119.75">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FFAD0000"/>
+				<GradientStop Offset="1" Color="#FFC20000"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="Brush51"  MappingMode="Absolute" StartPoint="169.18,72.68" EndPoint="172.88,103.48">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FF9C0000"/>
+				<GradientStop Offset="1" Color="#FFBE0000"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="Brush52"  MappingMode="Absolute" StartPoint="277.04,179.09" EndPoint="223.79,111.48">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FF580000"/>
+				<GradientStop Offset="1" Color="#FF780000"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="Brush53"  MappingMode="Absolute" StartPoint="232.16,237.59" EndPoint="106.69,110.67">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FF300000"/>
+				<GradientStop Offset="1" Color="#FF4F0000"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="Brush54"  MappingMode="Absolute" StartPoint="232.16,237.59" EndPoint="166.41,187.16">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FF580000"/>
+				<GradientStop Offset="1" Color="#FF770000"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="Brush55"  MappingMode="Absolute" StartPoint="232.16,237.59" EndPoint="235.95,115.58">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FF300000"/>
+				<GradientStop Offset="1" Color="#FF4F0000"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="Brush56"  MappingMode="Absolute" StartPoint="184.65,73.6" EndPoint="189.21,94.11">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FF910000"/>
+				<GradientStop Offset="1" Color="#FFAC0000"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="Brush57"  MappingMode="Absolute" StartPoint="266.51,72.77" EndPoint="272.28,101.5">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FFA70000"/>
+				<GradientStop Offset="1" Color="#FFBA0000"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="Brush58"  MappingMode="Absolute" StartPoint="214.12,238.89" EndPoint="202.95,105.07">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FF370000"/>
+				<GradientStop Offset="1" Color="#FF4F0000"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="Brush59"  MappingMode="Absolute" StartPoint="289.48,180.56" EndPoint="307.64,80.21">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FF660000"/>
+				<GradientStop Offset="1" Color="#FF870000"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="Brush60"  MappingMode="Absolute" StartPoint="214.12,238.89" EndPoint="194.14,117.67">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FF5D0000"/>
+				<GradientStop Offset="1" Color="#FF740101"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="Brush61"  MappingMode="Absolute" StartPoint="135.7,215.94" EndPoint="160.62,130.75">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FF370000"/>
+				<GradientStop Offset="1" Color="#FF4F0000"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="Brush62"  MappingMode="Absolute" StartPoint="264.77,78.63" EndPoint="261.73,121.21">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FFA50000"/>
+				<GradientStop Offset="1" Color="#FFC40000"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="Brush63"  MappingMode="Absolute" StartPoint="155.84,71.11" EndPoint="156.12,109.39">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FF9C0000"/>
+				<GradientStop Offset="1" Color="#FFC30000"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="Brush64"  MappingMode="Absolute" StartPoint="245.93,235.53" EndPoint="95.05,162.14">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FF1F0000"/>
+				<GradientStop Offset="1" Color="#FF3A0000"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="Brush65"  MappingMode="Absolute" StartPoint="258.73,177.93" EndPoint="244,175.81">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FF3E0000"/>
+				<GradientStop Offset="1" Color="#FF660000"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="Brush66"  MappingMode="Absolute" StartPoint="258.73,177.93" EndPoint="241.59,174.65">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FF3E0000"/>
+				<GradientStop Offset="1" Color="#FF660000"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="Brush67"  MappingMode="Absolute" StartPoint="245.93,235.53" EndPoint="235.82,101">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FF1F0000"/>
+				<GradientStop Offset="1" Color="#FF3A0000"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="Brush68"  MappingMode="Absolute" StartPoint="254.6,81.08" EndPoint="249.78,120.78">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FF9A0000"/>
+				<GradientStop Offset="1" Color="#FFBD0000"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="Brush69"  MappingMode="Absolute" StartPoint="133.11,224.17" EndPoint="137.1,224.46">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FF510000"/>
+				<GradientStop Offset="1" Color="#FF780000"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="Brush70"  MappingMode="Absolute" StartPoint="254.6,81.08" EndPoint="251.9,119.8">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FF9A0000"/>
+				<GradientStop Offset="1" Color="#FFC10000"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="Brush71"  MappingMode="Absolute" StartPoint="254.09,233" EndPoint="299.64,131.36">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FF250000"/>
+				<GradientStop Offset="1" Color="#FF370000"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="Brush72"  MappingMode="Absolute" StartPoint="135.42,168.38" EndPoint="139.4,168.64">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FF490000"/>
+				<GradientStop Offset="1" Color="#FF600000"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="Brush73"  MappingMode="Absolute" StartPoint="133.11,224.17" EndPoint="149,108.62">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FF240000"/>
+				<GradientStop Offset="1" Color="#FF310000"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="Brush74"  MappingMode="Absolute" StartPoint="166.9,228.51" EndPoint="228.36,108.99">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FF710000"/>
+				<GradientStop Offset="1" Color="#FF930000"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="Brush75"  MappingMode="Absolute" StartPoint="222.36,84.22" EndPoint="214.24,107.37">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FF7C0000"/>
+				<GradientStop Offset="1" Color="#FFA50000"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="Brush76"  MappingMode="Absolute" StartPoint="222.36,84.22" EndPoint="215.09,107.62">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FF7C0000"/>
+				<GradientStop Offset="1" Color="#FFA50000"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="Brush77"  MappingMode="Absolute" StartPoint="252.66,227.74" EndPoint="260.88,110.55">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FF370000"/>
+				<GradientStop Offset="1" Color="#FF4F0000"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="Brush78"  MappingMode="Absolute" StartPoint="166.9,228.51" EndPoint="165.81,107.69">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FF370000"/>
+				<GradientStop Offset="1" Color="#FF4F0000"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="Brush79"  MappingMode="Absolute" StartPoint="166.9,228.51" EndPoint="225.22,103.22">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FF710000"/>
+				<GradientStop Offset="1" Color="#FF930000"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="Brush80"  MappingMode="Absolute" StartPoint="146.77,226.68" EndPoint="216.81,196.36">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FF6A0000"/>
+				<GradientStop Offset="1" Color="#FF890000"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="Brush81"  MappingMode="Absolute" StartPoint="239.98,82.98" EndPoint="229.64,121.2">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FF8F0000"/>
+				<GradientStop Offset="1" Color="#FFB40000"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="Brush82"  MappingMode="Absolute" StartPoint="239.98,82.98" EndPoint="234.91,116">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FF8F0000"/>
+				<GradientStop Offset="1" Color="#FFB40000"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="Brush83"  MappingMode="Absolute" StartPoint="256.22,230.31" EndPoint="318.36,140.45">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FF300000"/>
+				<GradientStop Offset="1" Color="#FF470000"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="Brush84"  MappingMode="Absolute" StartPoint="116.41,169.17" EndPoint="171.6,147.97">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FF660000"/>
+				<GradientStop Offset="1" Color="#FF820000"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="Brush85"  MappingMode="Absolute" StartPoint="146.77,226.68" EndPoint="179.57,107.66">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FF2C0000"/>
+				<GradientStop Offset="1" Color="#FF3D0000"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="Brush86"  MappingMode="Absolute" StartPoint="191.2,229.36" EndPoint="269.16,124.45">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FF760000"/>
+				<GradientStop Offset="1" Color="#FFE45A5A"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="Brush87"  MappingMode="Absolute" StartPoint="203.08,84.77" EndPoint="201.63,88.06">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FF610000"/>
+				<GradientStop Offset="1" Color="#FF8F0000"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="Brush88"  MappingMode="Absolute" StartPoint="203.08,84.77" EndPoint="201.73,87.8">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FF610000"/>
+				<GradientStop Offset="1" Color="#FF8F0000"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="Brush89"  MappingMode="Absolute" StartPoint="244.23,225.52" EndPoint="207.31,122.27">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FF300000"/>
+				<GradientStop Offset="1" Color="#FF4F0000"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="Brush90"  MappingMode="Absolute" StartPoint="244.23,225.52" EndPoint="187.63,157.57">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FF300000"/>
+				<GradientStop Offset="1" Color="#FF4F0000"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="Brush91"  MappingMode="Absolute" StartPoint="191.2,229.36" EndPoint="246.75,106.41">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop Offset="0" Color="#FF760000"/>
+				<GradientStop Offset="1" Color="#FFE03E3E"/>
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+		<SolidColorBrush x:Key="Brush92"  Color="#808080" Opacity="0"/>
+	</Canvas.Resources>
+	<ContentControl x:Name="Swift3DContentControl" ClipToBounds="true" Width="400" Height="300">
+		<ContentControl.Triggers>
+			<EventTrigger RoutedEvent="ContentControl.Loaded">
+				<BeginStoryboard>
+					<Storyboard FillBehavior="HoldEnd" BeginTime="0:0:0" d:StoryboardName="Swift3DStoryboard">
+						<ObjectAnimationUsingKeyFrames RepeatBehavior="Forever" BeginTime="0:0:0" Duration="0:0:1.58333" Storyboard.TargetName="Swift3DDrawingImage" Storyboard.TargetProperty="Drawing">
+							<DiscreteObjectKeyFrame KeyTime="0:0:0">
+								<DiscreteObjectKeyFrame.Value>
+									<DrawingGroup>
+										<GeometryDrawing Brush="{StaticResource Brush0}" Geometry="F1 M 0,0 L 400,0 L 400,300 L 0,300 L 0,0"/>
+										<GeometryDrawing Brush="{StaticResource Brush6}" Geometry="F1 M 157.5,59.25 L 158,58.75 L 167.5,62.75 L 272.75,109.75 L 272.75,110 L 216.25,229 L 157.5,59.25"/>
+										<GeometryDrawing Brush="{StaticResource Brush7}" Geometry="F1 M 272.75,109.75 L 273,109.75 L 278,126.75 L 232.75,222.5 L 272.75,110 L 272.75,109.75"/>
+										<GeometryDrawing Brush="{StaticResource Brush8}" Geometry="F1 M 272.75,110 L 232.75,222.5 L 232.5,223 L 232.25,223.5 L 228,225.5 L 216.25,229 L 272.75,110"/>
+										<GeometryDrawing Brush="{StaticResource Brush9}" Geometry="F1 M 157.5,59.25 L 216.25,229 L 103.5,172.75 L 157.5,59.25"/>
+									</DrawingGroup>
+								</DiscreteObjectKeyFrame.Value>
+							</DiscreteObjectKeyFrame>
+							<DiscreteObjectKeyFrame KeyTime="0:0:0.0833333">
+								<DiscreteObjectKeyFrame.Value>
+									<DrawingGroup>
+										<GeometryDrawing Brush="{StaticResource Brush0}" Geometry="F1 M 0,0 L 400,0 L 400,300 L 0,300 L 0,0"/>
+										<GeometryDrawing Brush="{StaticResource Brush1}" Geometry="F1 M 172.75,63.75 L 176,57.25 L 176.75,57 L 241.5,227.5 L 240.5,227.5 L 125.5,175.75 L 122.25,174 L 159.5,92.5 L 159.75,92 L 161,89.25 L 162,87.25 L 162.5,86 L 164,83 L 164.25,82.25 L 172.75,64.25 L 172.5,64.25 L 172.75,63.75"/>
+										<GeometryDrawing Brush="{StaticResource Brush2}" Geometry="F1 M 172.5,64.25 L 172.75,64.25 L 164.25,82.25 L 164,83 L 162.5,86 L 162,87.25 L 161,89.25 L 159.75,92 L 159.5,92.5 L 134.25,145.25 L 163,82.75 L 172.5,64.25"/>
+										<GeometryDrawing Brush="{StaticResource Brush3}" Geometry="F1 M 159.5,92.5 L 122.25,174 L 119,178.25 L 132.75,148.5 L 133.5,146.75 L 134.25,145.25 L 159.5,92.5"/>
+										<GeometryDrawing Brush="{StaticResource Brush4}" Geometry="F1 M 122.25,174 L 125.5,175.75 L 240.5,227.5 L 219,223.5 L 211.75,221 L 211.25,220.75 L 211,220.75 L 119.25,179.75 L 118.5,179.25 L 119,178.25 L 122.25,174"/>
+										<GeometryDrawing Brush="{StaticResource Brush5}" Geometry="F1 M 290,111.5 L 241.5,227.5 L 176.75,57 L 290,111.5"/>
+									</DrawingGroup>
+								</DiscreteObjectKeyFrame.Value>
+							</DiscreteObjectKeyFrame>
+							<DiscreteObjectKeyFrame KeyTime="0:0:0.166667">
+								<DiscreteObjectKeyFrame.Value>
+									<DrawingGroup>
+										<GeometryDrawing Brush="{StaticResource Brush0}" Geometry="F1 M 0,0 L 400,0 L 400,300 L 0,300 L 0,0"/>
+										<GeometryDrawing Brush="{StaticResource Brush10}" Geometry="F1 M 198,57 L 198.75,56.5 L 258.75,225 L 154,175.25 L 153.5,175 L 198,57"/>
+										<GeometryDrawing Brush="{StaticResource Brush11}" Geometry="F1 M 198,57 L 153.5,175 L 105.5,181 L 105.5,180.25 L 198,57"/>
+										<GeometryDrawing Brush="{StaticResource Brush4}" Geometry="F1 M 153.5,175 L 154,175.25 L 258.75,225 L 196.5,222 L 105.5,181 L 153.5,175"/>
+										<GeometryDrawing Brush="{StaticResource Brush12}" Geometry="F1 M 105.5,180.25 L 144.75,82.25 L 198,57 L 105.5,180.25"/>
+										<GeometryDrawing Brush="{StaticResource Brush13}" Geometry="F1 M 198.75,56.5 L 293.75,113.75 L 258.75,225 L 198.75,56.5"/>
+									</DrawingGroup>
+								</DiscreteObjectKeyFrame.Value>
+							</DiscreteObjectKeyFrame>
+							<DiscreteObjectKeyFrame KeyTime="0:0:0.25">
+								<DiscreteObjectKeyFrame.Value>
+									<DrawingGroup>
+										<GeometryDrawing Brush="{StaticResource Brush0}" Geometry="F1 M 0,0 L 400,0 L 400,300 L 0,300 L 0,0"/>
+										<GeometryDrawing Brush="{StaticResource Brush14}" Geometry="F1 M 220.25,57.25 L 220.75,57.25 L 268,222 L 193,175.5 L 220.25,57.25"/>
+										<GeometryDrawing Brush="{StaticResource Brush15}" Geometry="F1 M 220.25,57.25 L 193,175.5 L 102,182.75 L 220.25,57.25"/>
+										<GeometryDrawing Brush="{StaticResource Brush16}" Geometry="F1 M 102,182.75 L 132.25,79.25 L 220.25,57.25 L 102,182.75"/>
+										<GeometryDrawing Brush="{StaticResource Brush4}" Geometry="F1 M 193,175.5 L 268,222 L 179,222.5 L 102,182.75 L 193,175.5"/>
+										<GeometryDrawing Brush="{StaticResource Brush17}" Geometry="F1 M 220.75,57.25 L 286.25,115.75 L 268,222 L 220.75,57.25"/>
+									</DrawingGroup>
+								</DiscreteObjectKeyFrame.Value>
+							</DiscreteObjectKeyFrame>
+							<DiscreteObjectKeyFrame KeyTime="0:0:0.333333">
+								<DiscreteObjectKeyFrame.Value>
+									<DrawingGroup>
+										<GeometryDrawing Brush="{StaticResource Brush0}" Geometry="F1 M 0,0 L 400,0 L 400,300 L 0,300 L 0,0"/>
+										<GeometryDrawing Brush="{StaticResource Brush20}" Geometry="F1 M 238.5,59 L 239,59 L 239.25,59.5 L 267.75,218.75 L 233.25,175.25 L 238.5,59"/>
+										<GeometryDrawing Brush="{StaticResource Brush21}" Geometry="F1 M 238.5,59 L 233.25,175.25 L 111,184.75 L 238.5,59"/>
+										<GeometryDrawing Brush="{StaticResource Brush22}" Geometry="F1 M 111,184.75 L 126.5,76 L 238.5,59 L 111,184.75"/>
+										<GeometryDrawing Brush="{StaticResource Brush4}" Geometry="F1 M 233.25,175.25 L 267.75,218.75 L 163,224 L 111,184.75 L 233.25,175.25"/>
+										<GeometryDrawing Brush="{StaticResource Brush23}" Geometry="F1 M 239.25,59.5 L 269.75,117.5 L 267.75,218.75 L 239.25,59.5"/>
+									</DrawingGroup>
+								</DiscreteObjectKeyFrame.Value>
+							</DiscreteObjectKeyFrame>
+							<DiscreteObjectKeyFrame KeyTime="0:0:0.416667">
+								<DiscreteObjectKeyFrame.Value>
+									<DrawingGroup>
+										<GeometryDrawing Brush="{StaticResource Brush0}" Geometry="F1 M 0,0 L 400,0 L 400,300 L 0,300 L 0,0"/>
+										<GeometryDrawing Brush="{StaticResource Brush18}" Geometry="F1 M 251,61.5 L 267.5,174.25 L 133.25,186.5 L 251,61.5"/>
+										<GeometryDrawing Brush="{StaticResource Brush19}" Geometry="F1 M 133.25,186.5 L 129.25,72.75 L 251,61.5 L 133.25,186.5"/>
+										<GeometryDrawing Brush="{StaticResource Brush4}" Geometry="F1 M 267.5,174.25 L 260,216 L 150.25,226 L 149.5,226 L 133.25,186.5 L 267.5,174.25"/>
+									</DrawingGroup>
+								</DiscreteObjectKeyFrame.Value>
+							</DiscreteObjectKeyFrame>
+							<DiscreteObjectKeyFrame KeyTime="0:0:0.5">
+								<DiscreteObjectKeyFrame.Value>
+									<DrawingGroup>
+										<GeometryDrawing Brush="{StaticResource Brush0}" Geometry="F1 M 0,0 L 400,0 L 400,300 L 0,300 L 0,0"/>
+										<GeometryDrawing Brush="{StaticResource Brush24}" Geometry="F1 M 141.25,70 L 256.25,64.75 L 167,187.75 L 166.5,187.75 L 141.25,70"/>
+										<GeometryDrawing Brush="{StaticResource Brush25}" Geometry="F1 M 122.25,128 L 122,127 L 141.25,70 L 166.5,187.75 L 122.25,128"/>
+										<GeometryDrawing Brush="{StaticResource Brush26}" Geometry="F1 M 256.25,64.75 L 289,173 L 167,187.75 L 256.25,64.75"/>
+										<GeometryDrawing Brush="{StaticResource Brush27}" Geometry="F1 M 122.25,128 L 166.5,187.75 L 141.5,228.25 L 122.25,128"/>
+										<GeometryDrawing Brush="{StaticResource Brush4}" Geometry="F1 M 166.5,187.75 L 167,187.75 L 289,173 L 245.5,213.75 L 142.25,228.5 L 141.5,228.25 L 166.5,187.75"/>
+									</DrawingGroup>
+								</DiscreteObjectKeyFrame.Value>
+							</DiscreteObjectKeyFrame>
+							<DiscreteObjectKeyFrame KeyTime="0:0:0.583333">
+								<DiscreteObjectKeyFrame.Value>
+									<DrawingGroup>
+										<GeometryDrawing Brush="{StaticResource Brush0}" Geometry="F1 M 0,0 L 400,0 L 400,300 L 0,300 L 0,0"/>
+										<GeometryDrawing Brush="{StaticResource Brush28}" Geometry="F1 M 162,67.25 L 254,67.75 L 206.25,188 L 205.75,188 L 162,67.25"/>
+										<GeometryDrawing Brush="{StaticResource Brush29}" Geometry="F1 M 105.75,126.5 L 106.75,124.5 L 162,67.25 L 205.75,188 L 105.75,126.5"/>
+										<GeometryDrawing Brush="{StaticResource Brush30}" Geometry="F1 M 254,67.75 L 296,168 L 296.75,171.75 L 206.25,188 L 254,67.75"/>
+										<GeometryDrawing Brush="{StaticResource Brush4}" Geometry="F1 M 296.75,171.75 L 296.75,172 L 296.5,172 L 226.75,212.25 L 141,231.25 L 140.25,231.5 L 139.5,231.25 L 205.75,188 L 206.25,188 L 296.75,171.75"/>
+										<GeometryDrawing Brush="{StaticResource Brush31}" Geometry="F1 M 105.75,126.5 L 205.75,188 L 139.5,231.25 L 105.75,126.5"/>
+									</DrawingGroup>
+								</DiscreteObjectKeyFrame.Value>
+							</DiscreteObjectKeyFrame>
+							<DiscreteObjectKeyFrame KeyTime="0:0:0.666667">
+								<DiscreteObjectKeyFrame.Value>
+									<DrawingGroup>
+										<GeometryDrawing Brush="{StaticResource Brush0}" Geometry="F1 M 0,0 L 400,0 L 400,300 L 0,300 L 0,0"/>
+										<GeometryDrawing Brush="{StaticResource Brush36}" Geometry="F1 M 188.25,66.25 L 245.5,70.5 L 243.5,187.25 L 188.25,66.25"/>
+										<GeometryDrawing Brush="{StaticResource Brush37}" Geometry="F1 M 188.25,66.25 L 243.5,187.25 L 98.5,124.75 L 188.25,66.25"/>
+										<GeometryDrawing Brush="{StaticResource Brush38}" Geometry="F1 M 245.5,70.5 L 291.5,167.5 L 292.5,169.75 L 291.75,170.75 L 291.5,170.75 L 291,171 L 290.25,171.5 L 243.5,187.25 L 245.5,70.5"/>
+										<GeometryDrawing Brush="{StaticResource Brush4}" Geometry="F1 M 289.75,171.75 L 289.25,172 L 288.5,172.25 L 288,172.5 L 287.5,172.75 L 287.25,172.75 L 206.25,211.25 L 149,233 L 148.75,233 L 148,233.25 L 147.5,233.5 L 146.75,233.75 L 243.5,187.25 L 290.25,171.5 L 289.75,171.75"/>
+										<GeometryDrawing Brush="{StaticResource Brush39}" Geometry="F1 M 98.5,124.75 L 243.5,187.25 L 146.75,233.75 L 145.75,234.25 L 145.25,234.5 L 98.5,124.75"/>
+									</DrawingGroup>
+								</DiscreteObjectKeyFrame.Value>
+							</DiscreteObjectKeyFrame>
+							<DiscreteObjectKeyFrame KeyTime="0:0:0.75">
+								<DiscreteObjectKeyFrame.Value>
+									<DrawingGroup>
+										<GeometryDrawing Brush="{StaticResource Brush0}" Geometry="F1 M 0,0 L 400,0 L 400,300 L 0,300 L 0,0"/>
+										<GeometryDrawing Brush="{StaticResource Brush32}" Geometry="F1 M 216.25,66.5 L 230.5,71.5 L 232.25,72.75 L 232.5,73.25 L 232.75,73.75 L 272.5,185 L 216.25,66.5"/>
+										<GeometryDrawing Brush="{StaticResource Brush33}" Geometry="F1 M 216.25,66.5 L 272.5,185 L 272.75,185.75 L 103.5,123.25 L 216.25,66.5"/>
+										<GeometryDrawing Brush="{StaticResource Brush34}" Geometry="F1 M 232.75,73.75 L 278,169 L 272.75,185.75 L 272.5,185 L 232.75,73.75"/>
+										<GeometryDrawing Brush="{StaticResource Brush35}" Geometry="F1 M 103.5,123.25 L 272.75,185.75 L 272.75,186 L 157.75,237 L 103.5,123.25"/>
+									</DrawingGroup>
+								</DiscreteObjectKeyFrame.Value>
+							</DiscreteObjectKeyFrame>
+							<DiscreteObjectKeyFrame KeyTime="0:0:0.833333">
+								<DiscreteObjectKeyFrame.Value>
+									<DrawingGroup>
+										<GeometryDrawing Brush="{StaticResource Brush0}" Geometry="F1 M 0,0 L 400,0 L 400,300 L 0,300 L 0,0"/>
+										<GeometryDrawing Brush="{StaticResource Brush40}" Geometry="F1 M 237.75,68.25 L 234.25,69.75 L 232.75,70.5 L 232.5,70.5 L 127,114.25 L 216.75,73.5 L 237.75,68 L 237.75,68.25"/>
+										<GeometryDrawing Brush="{StaticResource Brush41}" Geometry="F1 M 237.75,68.25 L 237.75,68 L 239.5,68 L 288.75,184.25 L 119.5,121.5 L 232.5,70.5 L 232.75,70.5 L 234.25,69.75 L 237.75,68.25"/>
+										<GeometryDrawing Brush="{StaticResource Brush42}" Geometry="F1 M 127,114.25 L 232.5,70.5 L 119.5,121.5 L 120.25,117 L 124,115.5 L 124.5,115.25 L 125.25,115 L 126.75,114.25 L 127,114.25"/>
+										<GeometryDrawing Brush="{StaticResource Brush43}" Geometry="F1 M 119.5,121.5 L 288.75,184.25 L 174.25,238.5 L 119.5,121.5"/>
+									</DrawingGroup>
+								</DiscreteObjectKeyFrame.Value>
+							</DiscreteObjectKeyFrame>
+							<DiscreteObjectKeyFrame KeyTime="0:0:0.916667">
+								<DiscreteObjectKeyFrame.Value>
+									<DrawingGroup>
+										<GeometryDrawing Brush="{StaticResource Brush0}" Geometry="F1 M 0,0 L 400,0 L 400,300 L 0,300 L 0,0"/>
+										<GeometryDrawing Brush="{StaticResource Brush44}" Geometry="F1 M 255,70.5 L 108.5,115 L 200.5,74 L 256,70 L 255,70.5"/>
+										<GeometryDrawing Brush="{StaticResource Brush45}" Geometry="F1 M 255,70.5 L 256,70 L 256.75,70.5 L 262.5,87.5 L 294,182.5 L 146.5,120.5 L 255,70.5"/>
+										<GeometryDrawing Brush="{StaticResource Brush46}" Geometry="F1 M 255,70.5 L 146.5,120.5 L 107.5,115.5 L 108.5,115 L 255,70.5"/>
+										<GeometryDrawing Brush="{StaticResource Brush47}" Geometry="F1 M 107.75,117 L 107,115.75 L 107.5,115.5 L 146.5,120.5 L 193.25,238.5 L 107.75,117"/>
+										<GeometryDrawing Brush="{StaticResource Brush48}" Geometry="F1 M 146.5,120.5 L 294,182.5 L 195,239 L 193.5,239 L 193.25,238.5 L 146.5,120.5"/>
+										<GeometryDrawing Brush="{StaticResource Brush49}" Geometry="F1 M 107.75,117 L 193.25,238.5 L 193.5,239 L 148.5,214.25 L 107.75,117"/>
+									</DrawingGroup>
+								</DiscreteObjectKeyFrame.Value>
+							</DiscreteObjectKeyFrame>
+							<DiscreteObjectKeyFrame KeyTime="0:0:1">
+								<DiscreteObjectKeyFrame.Value>
+									<DrawingGroup>
+										<GeometryDrawing Brush="{StaticResource Brush0}" Geometry="F1 M 0,0 L 400,0 L 400,300 L 0,300 L 0,0"/>
+										<GeometryDrawing Brush="{StaticResource Brush56}" Geometry="F1 M 102.25,113.5 L 184.5,73.75 L 265.5,73 L 102.25,113.5"/>
+										<GeometryDrawing Brush="{StaticResource Brush57}" Geometry="F1 M 102.25,113.5 L 265.5,73 L 180.75,120 L 101.75,114.25 L 102.25,113.5"/>
+										<GeometryDrawing Brush="{StaticResource Brush58}" Geometry="F1 M 101.75,114.25 L 180.75,120 L 213.75,238.5 L 101.75,114.25"/>
+										<GeometryDrawing Brush="{StaticResource Brush59}" Geometry="F1 M 265.5,73 L 266.75,73 L 267.5,76.25 L 289.5,180.5 L 180.75,120 L 265.5,73"/>
+										<GeometryDrawing Brush="{StaticResource Brush60}" Geometry="F1 M 180.75,120 L 289.5,180.5 L 214,239 L 213.75,238.5 L 180.75,120"/>
+										<GeometryDrawing Brush="{StaticResource Brush61}" Geometry="F1 M 101.75,114.25 L 213.75,238.5 L 214,239 L 135.75,216.25 L 101.75,114.25"/>
+									</DrawingGroup>
+								</DiscreteObjectKeyFrame.Value>
+							</DiscreteObjectKeyFrame>
+							<DiscreteObjectKeyFrame KeyTime="0:0:1.08333">
+								<DiscreteObjectKeyFrame.Value>
+									<DrawingGroup>
+										<GeometryDrawing Brush="{StaticResource Brush0}" Geometry="F1 M 0,0 L 400,0 L 400,300 L 0,300 L 0,0"/>
+										<GeometryDrawing Brush="{StaticResource Brush50}" Geometry="F1 M 268,76 L 268.75,76 L 218,120 L 105.75,112 L 106.25,111.5 L 268,76"/>
+										<GeometryDrawing Brush="{StaticResource Brush51}" Geometry="F1 M 106.25,111.5 L 169,72.75 L 268,76 L 106.25,111.5"/>
+										<GeometryDrawing Brush="{StaticResource Brush52}" Geometry="F1 M 268.75,76 L 269.5,77.5 L 277,179.25 L 218,120 L 268.75,76"/>
+										<GeometryDrawing Brush="{StaticResource Brush53}" Geometry="F1 M 105.75,112 L 218,120 L 232,237.75 L 105.75,112"/>
+										<GeometryDrawing Brush="{StaticResource Brush54}" Geometry="F1 M 218,120 L 277,179.25 L 232,237.75 L 218,120"/>
+										<GeometryDrawing Brush="{StaticResource Brush55}" Geometry="F1 M 105.75,112 L 232,237.75 L 128,218.75 L 105.75,112"/>
+									</DrawingGroup>
+								</DiscreteObjectKeyFrame.Value>
+							</DiscreteObjectKeyFrame>
+							<DiscreteObjectKeyFrame KeyTime="0:0:1.16667">
+								<DiscreteObjectKeyFrame.Value>
+									<DrawingGroup>
+										<GeometryDrawing Brush="{StaticResource Brush0}" Geometry="F1 M 0,0 L 400,0 L 400,300 L 0,300 L 0,0"/>
+										<GeometryDrawing Brush="{StaticResource Brush62}" Geometry="F1 M 264.25,78.75 L 264.75,79.25 L 264.75,79.75 L 251.75,120.75 L 121.5,109.75 L 264.25,78.75"/>
+										<GeometryDrawing Brush="{StaticResource Brush63}" Geometry="F1 M 120.5,110.25 L 155.5,71.25 L 264.25,78.75 L 121.5,109.75 L 120.5,110.25"/>
+										<GeometryDrawing Brush="{StaticResource Brush64}" Geometry="F1 M 120.5,110.25 L 121.5,109.75 L 251.75,120.75 L 245.5,235.5 L 120.5,110.25"/>
+										<GeometryDrawing Brush="{StaticResource Brush65}" Geometry="F1 M 264.75,79.75 L 258.75,177.75 L 251.75,120.75 L 264.75,79.75"/>
+										<GeometryDrawing Brush="{StaticResource Brush66}" Geometry="F1 M 251.75,120.75 L 258.75,177.75 L 246.5,234.25 L 246,235.75 L 245.5,235.5 L 251.75,120.75"/>
+										<GeometryDrawing Brush="{StaticResource Brush67}" Geometry="F1 M 120.5,110.25 L 245.5,235.5 L 126.75,221.5 L 120.5,110.25"/>
+									</DrawingGroup>
+								</DiscreteObjectKeyFrame.Value>
+							</DiscreteObjectKeyFrame>
+							<DiscreteObjectKeyFrame KeyTime="0:0:1.25">
+								<DiscreteObjectKeyFrame.Value>
+									<DrawingGroup>
+										<GeometryDrawing Brush="{StaticResource Brush0}" Geometry="F1 M 0,0 L 400,0 L 400,300 L 0,300 L 0,0"/>
+										<GeometryDrawing Brush="{StaticResource Brush68}" Geometry="F1 M 145.5,72.25 L 145.75,69.75 L 145.75,69 L 153,69.75 L 254,81.25 L 146.25,108.25 L 145.5,108.25 L 145.5,72.25"/>
+										<GeometryDrawing Brush="{StaticResource Brush69}" Geometry="F1 M 145.5,72.25 L 145.5,108.25 L 134.5,207 L 143.75,89 L 143.75,88.25 L 144,86.5 L 144,85.25 L 144.25,84.25 L 144.25,82.25 L 144.5,81.75 L 145.5,72.25 M 134,213.25 L 133.5,214.75 L 133.5,213.75 L 134,213.25"/>
+										<GeometryDrawing Brush="{StaticResource Brush70}" Geometry="F1 M 254,81.25 L 255.5,82.25 L 278,121.75 L 146.25,108.25 L 254,81.25"/>
+										<GeometryDrawing Brush="{StaticResource Brush71}" Geometry="F1 M 145.5,108.25 L 146.25,108.25 L 278,121.75 L 254.25,233 L 145.5,108.25"/>
+										<GeometryDrawing Brush="{StaticResource Brush72}" Geometry="F1 M 134.5,207 L 134.5,207.25 L 134.25,209.25 L 134.25,210.25 L 134,211.75 L 134,213.25 L 133.5,213.75 L 135.25,167.75 L 143.75,89 L 134.5,207"/>
+										<GeometryDrawing Brush="{StaticResource Brush73}" Geometry="F1 M 134.5,207 L 145.5,108.25 L 254.25,233 L 134.5,224.5 L 133,224.25 L 133.25,218.5 L 133.25,216.75 L 133.5,214.75 L 134,213.25 L 134,211.75 L 134.25,210.25 L 134.25,209.25 L 134.5,207.25 L 134.5,207"/>
+									</DrawingGroup>
+								</DiscreteObjectKeyFrame.Value>
+							</DiscreteObjectKeyFrame>
+							<DiscreteObjectKeyFrame KeyTime="0:0:1.33333">
+								<DiscreteObjectKeyFrame.Value>
+									<DrawingGroup>
+										<GeometryDrawing Brush="{StaticResource Brush0}" Geometry="F1 M 0,0 L 400,0 L 400,300 L 0,300 L 0,0"/>
+										<GeometryDrawing Brush="{StaticResource Brush80}" Geometry="F1 M 140,67.75 L 140.25,66.75 L 178,107.5 L 146.5,226.25 L 140,67.75"/>
+										<GeometryDrawing Brush="{StaticResource Brush81}" Geometry="F1 M 140.25,66.75 L 240,83 L 178,107.5 L 140.25,66.75"/>
+										<GeometryDrawing Brush="{StaticResource Brush82}" Geometry="F1 M 240,83 L 293,123 L 178,107.5 L 240,83"/>
+										<GeometryDrawing Brush="{StaticResource Brush83}" Geometry="F1 M 178,107.5 L 293,123 L 256.25,230.5 L 178,107.5"/>
+										<GeometryDrawing Brush="{StaticResource Brush84}" Geometry="F1 M 146.5,226.25 L 116.25,169.5 L 140,67.75 L 146.5,226.25"/>
+										<GeometryDrawing Brush="{StaticResource Brush85}" Geometry="F1 M 178,107.5 L 256.25,230.5 L 149,227 L 146.5,226.25 L 178,107.5"/>
+									</DrawingGroup>
+								</DiscreteObjectKeyFrame.Value>
+							</DiscreteObjectKeyFrame>
+							<DiscreteObjectKeyFrame KeyTime="0:0:1.41667">
+								<DiscreteObjectKeyFrame.Value>
+									<DrawingGroup>
+										<GeometryDrawing Brush="{StaticResource Brush0}" Geometry="F1 M 0,0 L 400,0 L 400,300 L 0,300 L 0,0"/>
+										<GeometryDrawing Brush="{StaticResource Brush74}" Geometry="F1 M 139.75,64.5 L 140.25,63.75 L 213.75,107.5 L 166.75,228.5 L 141.25,70.5 L 139.75,64.5"/>
+										<GeometryDrawing Brush="{StaticResource Brush75}" Geometry="F1 M 140.25,63.75 L 222.5,84.5 L 213.75,107.5 L 140.25,63.75"/>
+										<GeometryDrawing Brush="{StaticResource Brush76}" Geometry="F1 M 222.5,84.5 L 297,124.5 L 213.75,107.5 L 222.5,84.5"/>
+										<GeometryDrawing Brush="{StaticResource Brush77}" Geometry="F1 M 213.75,107.5 L 297,124.5 L 252.75,227.75 L 213.75,107.5"/>
+										<GeometryDrawing Brush="{StaticResource Brush78}" Geometry="F1 M 213.75,107.5 L 252.75,227.75 L 166.75,228.5 L 213.75,107.5"/>
+										<GeometryDrawing Brush="{StaticResource Brush79}" Geometry="F1 M 139.75,64.5 L 141.25,70.5 L 166.75,228.5 L 103.25,170.5 L 139.75,64.5"/>
+									</DrawingGroup>
+								</DiscreteObjectKeyFrame.Value>
+							</DiscreteObjectKeyFrame>
+							<DiscreteObjectKeyFrame KeyTime="0:0:1.5">
+								<DiscreteObjectKeyFrame.Value>
+									<DrawingGroup>
+										<GeometryDrawing Brush="{StaticResource Brush0}" Geometry="F1 M 0,0 L 400,0 L 400,300 L 0,300 L 0,0"/>
+										<GeometryDrawing Brush="{StaticResource Brush86}" Geometry="F1 M 145.75,61.25 L 146.5,61.25 L 147,61.5 L 147.5,61.75 L 147.75,61.75 L 247,108.25 L 191,229.25 L 145.75,61.5 L 145.75,61.25"/>
+										<GeometryDrawing Brush="{StaticResource Brush87}" Geometry="F1 M 147.75,61.75 L 204,85.25 L 204.5,85.5 L 205,85.75 L 205.5,86 L 206,86.25 L 247,108.25 L 147.75,61.75"/>
+										<GeometryDrawing Brush="{StaticResource Brush88}" Geometry="F1 M 206,86.25 L 288.25,124.5 L 247.25,108.25 L 247,108.25 L 206,86.25"/>
+										<GeometryDrawing Brush="{StaticResource Brush89}" Geometry="F1 M 247,108.25 L 247.25,108.25 L 244.5,225 L 244.5,225.25 L 244.25,225.75 L 191,229.25 L 247,108.25"/>
+										<GeometryDrawing Brush="{StaticResource Brush90}" Geometry="F1 M 247.25,108.25 L 288.25,124.5 L 288.5,124.5 L 289.5,125 L 290,125.25 L 290.5,125.5 L 291.5,126 L 288.5,132.75 L 244.5,225 L 247.25,108.25"/>
+										<GeometryDrawing Brush="{StaticResource Brush91}" Geometry="F1 M 191,229.25 L 98.25,171.5 L 145.75,61.5 L 191,229.25"/>
+									</DrawingGroup>
+								</DiscreteObjectKeyFrame.Value>
+							</DiscreteObjectKeyFrame>
+						</ObjectAnimationUsingKeyFrames>
+					</Storyboard>
+				</BeginStoryboard>
+			</EventTrigger>
+		</ContentControl.Triggers>
+		<ContentControl.Content>
+			<Image>
+				<Image.Source>
+					<DrawingImage x:Name="Swift3DDrawingImage"/>
+				</Image.Source>
+			</Image>
+		</ContentControl.Content>
+	</ContentControl>
+</Canvas>
+
+</Window>

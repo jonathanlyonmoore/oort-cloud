@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='windows-1252'?>
+<Wix xmlns='http://schemas.microsoft.com/wix/2006/wi'>
+  <Product Name='Halley' Id='1B3DBD99-FF6E-408c-9ADD-DEF94F0449B8'
+    Language='1033' Codepage='1252'
+    Version='1.0.0' Manufacturer='Oort Cloud' UpgradeCode='6B9E7760-B3D7-41b0-9578-D22B3181A40F'>
+    <Package/>
+    <Media Id='1' DiskPrompt="CD-ROM #1" />
+    <Property Id='DiskPrompt' Value="Halley Installation [1]"  />
+
+    <Directory Id='TARGETDIR' Name='SourceDir'>
+      <Directory Id='ProgramFilesFolder' Name='PFiles'>            
+        
+          
+          
+          
+            
+          <!--The Root Directory for Halley-->
+          <Directory Id='HALLEY' Name='Halley' >
+            <Component Id='HalleyFolder' Guid='53C11AC9-8BF4-4035-94B7-6FD473D9ED67'>
+              <File Id ='HAL'  Name ='Halley.exe' DiskId='1' Source ='Source\Halley\bin\Release\Halley.exe' Vital ='yes'/>
+              <CreateFolder/>
+            </Component >
+            
+            <!--The Directory for the Documentation-->
+            <Directory Id='HELPDIR' Name='Help'>
+              <Component Id='HelpFolder' Guid='C61386DB-1DB5-4d8d-BBCB-FA1E19766053'>
+                <CreateFolder/>
+              </Component>
+            </Directory>
+            
+          </Directory>
+
+          
+          
+       
+        
+      </Directory>
+      <!--End of Program Files Directory-->
+
+      
+            
+    </Directory >
+    <!--End of TARGETDIR-->
+
+    
+
+
+    
+
+   
+    
+
+    <Feature Id='Complete' Title='Halley' Description='The complete package.' TypicalDefault='install' Display='expand' Level='1' ConfigurableDirectory='HALLEY'>
+      <Feature Id='HALL' Title='Halley Program' Description='The Halley Program' TypicalDefault='install' Level='1'>
+        <ComponentRef Id='HalleyFolder' />
+      </Feature>
+      <Feature Id='Help' Title='Help' Description='Documentation' Level='1'>
+        <ComponentRef Id='HelpFolder' />        
+      </Feature>
+      
+	        
+	    </Feature>
+   
+
+    <AdminExecuteSequence/>
+    
+    
+    
+    <InstallExecuteSequence>
+      
+      
+    </InstallExecuteSequence>
+    
+    <UIRef Id="WixUI_Mondo"/>
+  </Product>
+</Wix>

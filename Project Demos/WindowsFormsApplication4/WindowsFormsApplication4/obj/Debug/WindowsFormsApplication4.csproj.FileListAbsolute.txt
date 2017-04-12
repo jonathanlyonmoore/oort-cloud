@@ -1,0 +1,7 @@
+C:\Users\Jonathan Moore\Favorites\Documents\Visual Studio 2008\Projects\WindowsFormsApplication4\WindowsFormsApplication4\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Jonathan Moore\Favorites\Documents\Visual Studio 2008\Projects\WindowsFormsApplication4\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.Properties.Resources.resources
+C:\Users\Jonathan Moore\Favorites\Documents\Visual Studio 2008\Projects\WindowsFormsApplication4\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.csproj.GenerateResource.Cache
+C:\Users\Jonathan Moore\Favorites\Documents\Visual Studio 2008\Projects\WindowsFormsApplication4\WindowsFormsApplication4\bin\Debug\WindowsFormsApplication4.exe
+C:\Users\Jonathan Moore\Favorites\Documents\Visual Studio 2008\Projects\WindowsFormsApplication4\WindowsFormsApplication4\bin\Debug\WindowsFormsApplication4.pdb
+C:\Users\Jonathan Moore\Favorites\Documents\Visual Studio 2008\Projects\WindowsFormsApplication4\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.exe
+C:\Users\Jonathan Moore\Favorites\Documents\Visual Studio 2008\Projects\WindowsFormsApplication4\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.pdb

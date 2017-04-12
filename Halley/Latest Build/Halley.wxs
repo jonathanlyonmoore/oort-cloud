@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='windows-1252'?>
+<Wix xmlns='http://schemas.microsoft.com/wix/2006/wi'>
+  <Product Name='Halley' Id='46114FA4-F7D5-402e-99CC-943E09628A5D'
+    Language='1033' Codepage='1252'
+    Version='1.0.0' Manufacturer='Oort Cloud' UpgradeCode='6B9E7760-B3D7-41b0-9578-D22B3181A40F'>
+    <Package Keywords='Installer'
+      Description="Halley Installer"
+      Comments='Halley is a registered trademark of Oort Cloud.' Manufacturer='Nasa'
+      InstallerVersion='100' Languages='1033' Compressed='yes' SummaryCodepage='1252' />
+    <Media Id='1' Cabinet='product.cab' EmbedCab='yes' />
+    <Property Id='DiskPrompt' Value="Halley Installation [1]"  />
+
+    <Directory Id='TARGETDIR' Name='SourceDir'>
+      <Directory Id='ProgramFilesFolder' Name='PFiles'> 
+          
+          
+          
+            
+          <!--The Root Directory for Halley-->
+          <Directory Id='HALLEY' Name='Halley' >
+            <Component Id='HalleyFolder' Guid='53C11AC9-8BF4-4035-94B7-6FD473D9ED67'>
+              <File Id ='HAL'  Name ='Halley.exe' DiskId='1' Source ='Source\Halley\bin\Debug\Halley.exe' Vital ='yes'/>
+              <File Id ='About' Name='Halley.About.dll' DiskId='1' Source='Source\Halley.About\bin\Debug\Halley.About.dll' Vital ='yes'/>
+              <File Id ='Battery' Name='Halley.Battery.dll' DiskId='1' Source='Source\Halley.Battery\bin\Debug\Halley.Battery.dll' Vital ='yes'/>
+              <File Id ='Compressability' Name='Halley.Compressability.dll' DiskId='1' Source='Source\Halley.Compressability\bin\Debug\Halley.Compressability.dll' Vital ='yes'/>
+              <File Id ='Radiation' Name='Halley.Radiation.dll' DiskId='1' Source='Source\Halley.Radiation\bin\Debug\Halley.Radiation.dll' Vital ='yes'/>
+              <File Id ='Slope' Name='Halley.Slope.dll' DiskId='1' Source='Source\Halley.Slope\bin\Debug\Halley.Slope.dll' Vital ='yes'/>
+              <File Id ='Thermometer' Name='Halley.Thermometer.dll' DiskId='1' Source='Source\Halley.Thermometer\bin\Debug\Halley.Thermometer.dll' Vital ='yes'/>
+              <File Id ='Robot1' Name='Grid1.txt' DiskId='1' Source='Source\Halley\bin\Debug\Grid1.txt' Vital ='yes'/>
+              <File Id ='Robot2' Name='Grid2.txt' DiskId='1' Source='Source\Halley\bin\Debug\Grid2.txt' Vital ='yes'/>
+              <File Id ='Robot3' Name='Grid3.txt' DiskId='1' Source='Source\Halley\bin\Debug\Grid3.txt' Vital ='yes'/>
+              <File Id ='Robot4' Name='Robot 4.txt' DiskId='1' Source='Source\Halley\bin\Debug\Robot 4.txt' Vital ='yes'/>
+              <File Id ='Robot5' Name='Robot 5.txt' DiskId='1' Source='Source\Halley\bin\Debug\Robot 5.txt' Vital ='yes'/>
+              <File Id ='Robot6' Name='Robot 6.txt' DiskId='1' Source='Source\Halley\bin\Debug\Robot 6.txt' Vital ='yes'/>
+
+
+              <CreateFolder/>
+            </Component >
+            
+            <!--The Directory for the Documentation-->
+            
+            
+          </Directory>
+
+          
+          
+       
+        
+      </Directory>
+      <!--End of Program Files Directory-->
+
+      
+            
+    </Directory >
+    <!--End of TARGETDIR-->
+
+    
+
+
+    
+
+   
+    
+
+    <Feature Id='Complete' Title='Halley' Description='The complete package.' TypicalDefault='install' Display='expand' Level='1' ConfigurableDirectory='HALLEY'>
+      <Feature Id='HALL' Title='Halley Program' Description='The Halley Program' TypicalDefault='install' Level='1'>
+        <ComponentRef Id='HalleyFolder' />
+      </Feature>
+      
+      
+	        
+	    </Feature>
+   
+
+    <AdminExecuteSequence/>
+    
+    
+    
+    <InstallExecuteSequence>
+      
+      
+    </InstallExecuteSequence>
+    
+    <UIRef Id="WixUI_Mondo"/>
+  </Product>
+</Wix>

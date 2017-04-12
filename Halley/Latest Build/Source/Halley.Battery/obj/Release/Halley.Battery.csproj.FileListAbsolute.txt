@@ -1,0 +1,39 @@
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Source\Battery\bin\Release\Halley.Battery.dll
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Source\Battery\bin\Release\Halley.Battery.pdb
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Source\Battery\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Source\Battery\obj\Release\Halley.Battery.Properties.Resources.resources
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Source\Battery\obj\Release\Halley.Battery.Robot1BatteryForm.resources
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Source\Battery\obj\Release\Halley.Battery.csproj.GenerateResource.Cache
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Source\Battery\obj\Release\Halley.Battery.dll
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Source\Battery\obj\Release\Halley.Battery.pdb
+C:\Users\Jonathan Moore\Desktop\Halley 1.0.2.4\Halley\Source\Halley.Battery\bin\Release\Halley.Battery.dll
+C:\Users\Jonathan Moore\Desktop\Halley 1.0.2.4\Halley\Source\Halley.Battery\bin\Release\Halley.Battery.pdb
+C:\Users\Jonathan Moore\Desktop\Halley 1.0.2.4\Halley\Source\Halley.Battery\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Jonathan Moore\Desktop\Halley 1.0.2.4\Halley\Source\Halley.Battery\obj\Release\Halley.Battery.Properties.Resources.resources
+C:\Users\Jonathan Moore\Desktop\Halley 1.0.2.4\Halley\Source\Halley.Battery\obj\Release\Halley.Battery.Robot1BatteryForm.resources
+C:\Users\Jonathan Moore\Desktop\Halley 1.0.2.4\Halley\Source\Halley.Battery\obj\Release\Halley.Battery.csproj.GenerateResource.Cache
+C:\Users\Jonathan Moore\Desktop\Halley 1.0.2.4\Halley\Source\Halley.Battery\obj\Release\Halley.Battery.dll
+C:\Users\Jonathan Moore\Desktop\Halley 1.0.2.4\Halley\Source\Halley.Battery\obj\Release\Halley.Battery.pdb
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Source\Halley.Battery\bin\Release\Halley.Battery.dll
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Source\Halley.Battery\bin\Release\Halley.Battery.pdb
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Source\Halley.Battery\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Source\Halley.Battery\obj\Release\Halley.Battery.Properties.Resources.resources
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Source\Halley.Battery\obj\Release\Halley.Battery.Robot1BatteryForm.resources
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Source\Halley.Battery\obj\Release\Halley.Battery.csproj.GenerateResource.Cache
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Source\Halley.Battery\obj\Release\Halley.Battery.dll
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Source\Halley.Battery\obj\Release\Halley.Battery.pdb
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Source\Halley.Battery\bin\Release\Halley.Battery.xml
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Latest Build\Source\Halley.Battery\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Latest Build\Source\Halley.Battery\obj\Release\Halley.Battery.Properties.Resources.resources
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Latest Build\Source\Halley.Battery\obj\Release\Halley.Battery.Robot1BatteryForm.resources
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Latest Build\Source\Halley.Battery\obj\Release\Halley.Battery.Robot2BatteryForm.resources
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Latest Build\Source\Halley.Battery\obj\Release\Halley.Battery.Robot3BatteryForm.resources
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Latest Build\Source\Halley.Battery\obj\Release\Halley.Battery.Robot4BatteryForm.resources
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Latest Build\Source\Halley.Battery\obj\Release\Halley.Battery.csproj.GenerateResource.Cache
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Latest Build\Source\Halley.Battery\bin\Release\Halley.Battery.dll
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Latest Build\Source\Halley.Battery\bin\Release\Halley.Battery.pdb
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Latest Build\Source\Halley.Battery\obj\Release\Halley.Battery.dll
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Latest Build\Source\Halley.Battery\obj\Release\Halley.Battery.pdb
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Latest Build\Source\Halley.Battery\obj\Release\Halley.Battery.Robot5BatteryForm.resources
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Latest Build\Source\Halley.Battery\obj\Release\Halley.Battery.Robot6BatteryForm.resources
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Latest Build\Source\Halley.Battery\bin\Release\Halley.Battery.xml

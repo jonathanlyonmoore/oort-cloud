@@ -1,0 +1,58 @@
+<Project DefaultTargets="BuildAll" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Release</Configuration>
+    <WixDir>Shared\Wix</WixDir>
+    
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Projects Include ="**\*.*csproj">
+    </Projects>	
+  </ItemGroup>
+<ItemGroup>
+<OtherFiles Include= "Source\Halley.About\bin\Release\Halley.About.dll">
+      <Destination>Deployable</Destination>
+    </OtherFiles>
+	<OtherFiles Include= "Source\Halley.Battery\bin\Release\Halley.Battery.dll">
+      <Destination>Deployable</Destination>
+    </OtherFiles>
+	<OtherFiles Include= "Source\Halley\bin\Release\Halley.exe">
+      <Destination>Deployable</Destination>
+    </OtherFiles>
+	
+	<OtherFiles Include= "Source\Halley.Memory\bin\Release\Halley.Memory.dll">
+      <Destination>Deployable</Destination>
+    </OtherFiles>
+	<OtherFiles Include= "Source\Halley.Sensors\bin\Release\Halley.Sensors.dll">
+      <Destination>Deployable</Destination>
+    </OtherFiles>
+	<OtherFiles Include= "Source\Help\Halley.chm">
+      <Destination>Deployable</Destination>
+    </OtherFiles>
+</ItemGroup>	
+
+  <Target Name="BuildC++">
+    <MSBuild Projects="Samples\WinUI\AVI\Avidemo.sln" Targets="Rebuild" Properties="Configuration=$(Configuration)" />
+  </Target>
+
+  <Target Name="CleanAll">
+    <MSBuild Projects="@(Projects)" Targets="Clean" />
+  </Target>
+
+  <Target Name="BuildAll" DependsOnTargets="CleanAll;BuildConstOne;Build" />
+  
+  <Target Name="BuildConstOne">
+    <MSBuild Projects="@(Projects)"
+             Properties="Configuration=$(Configuration)"/>
+  </Target>
+
+
+  <Target Name="Build">
+   
+   <Exec Command="$(WixDir)\candle.exe Halley.wxs" />
+   <Exec Command="$(WixDir)\light.exe -ext WixUIExtension -cultures:en-us Halley.wixobj -out Halley.msi" />
+
+ 
+   
+  </Target>
+</Project>

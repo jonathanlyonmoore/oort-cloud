@@ -1,0 +1,4 @@
+Slope 5
+Temp 125
+Radiation 15
+Compressibility 3

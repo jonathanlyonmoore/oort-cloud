@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{40BFEF41-B789-474E-B6AA-823E2C1356CE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Halley.Slope</RootNamespace>
+    <AssemblyName>Halley.Slope</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>SlopeForm.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Robot1Slope.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Robot1Slope.Designer.cs">
+      <DependentUpon>Robot1Slope.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Robot2Slope.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Robot2Slope.Designer.cs">
+      <DependentUpon>Robot2Slope.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Robot3Slope.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Robot3Slope.Designer.cs">
+      <DependentUpon>Robot3Slope.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Robot4Slope.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Robot4Slope.Designer.cs">
+      <DependentUpon>Robot4Slope.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Robot5Slope.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Robot5Slope.Designer.cs">
+      <DependentUpon>Robot5Slope.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Robot6Slope.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Robot6Slope.Designer.cs">
+      <DependentUpon>Robot6Slope.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Robot1Slope.resx">
+      <DependentUpon>Robot1Slope.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Robot2Slope.resx">
+      <DependentUpon>Robot2Slope.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Robot3Slope.resx">
+      <DependentUpon>Robot3Slope.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Robot4Slope.resx">
+      <DependentUpon>Robot4Slope.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Robot5Slope.resx">
+      <DependentUpon>Robot5Slope.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Robot6Slope.resx">
+      <DependentUpon>Robot6Slope.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SlopeForm.snk" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

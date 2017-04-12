@@ -1,0 +1,8 @@
+C:\Users\Jonathan Moore\Desktop\Sketch_Demo\Sketch_Demo\bin\Debug\Sketch_Demo.exe
+C:\Users\Jonathan Moore\Desktop\Sketch_Demo\Sketch_Demo\bin\Debug\Sketch_Demo.pdb
+C:\Users\Jonathan Moore\Desktop\Sketch_Demo\Sketch_Demo\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Jonathan Moore\Desktop\Sketch_Demo\Sketch_Demo\obj\Debug\Sketch_Demo.Properties.Resources.resources
+C:\Users\Jonathan Moore\Desktop\Sketch_Demo\Sketch_Demo\obj\Debug\Sketch_Demo.csproj.GenerateResource.Cache
+C:\Users\Jonathan Moore\Desktop\Sketch_Demo\Sketch_Demo\obj\Debug\Sketch_Demo.exe
+C:\Users\Jonathan Moore\Desktop\Sketch_Demo\Sketch_Demo\obj\Debug\Sketch_Demo.pdb
+C:\Users\Jonathan Moore\Desktop\Sketch_Demo\Sketch_Demo\obj\Debug\Sketch_Demo.Main.resources

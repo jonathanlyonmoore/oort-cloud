@@ -1,0 +1,5 @@
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Source\Halley.Memory\bin\Release\Halley.Memory.dll
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Source\Halley.Memory\bin\Release\Halley.Memory.pdb
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Source\Halley.Memory\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Source\Halley.Memory\obj\Release\Halley.Memory.dll
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Source\Halley.Memory\obj\Release\Halley.Memory.pdb

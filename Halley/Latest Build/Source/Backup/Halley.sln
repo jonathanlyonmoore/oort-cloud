@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Halley.Main", "Halley\Halley.Main.csproj", "{865DA94F-1305-4827-B2D5-0CE1B34D3C36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Halley.About", "Halley.About\Halley.About.csproj", "{AFD81240-24FC-4426-A4D3-022126EDC1D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Halley.Battery", "Halley.Battery\Halley.Battery.csproj", "{D72D65B8-B2BF-4874-AF0A-1641FE275033}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Halley.Slope", "Halley.Slope\Halley.Slope.csproj", "{40BFEF41-B789-474E-B6AA-823E2C1356CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Halley.Radiation", "Halley.Radiation\Halley.Radiation.csproj", "{5E3A7CC8-EE17-414C-80DE-BD90D6FAB40D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Halley.Thermometer", "Halley.Thermometer\Halley.Thermometer.csproj", "{B163AD80-3E18-46E4-A06A-78A882A869B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Halley.Compressability", "Halley.Compressability\Halley.Compressability.csproj", "{C5C6707D-81A9-40FA-BCC5-BD2163EC09D0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{865DA94F-1305-4827-B2D5-0CE1B34D3C36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{865DA94F-1305-4827-B2D5-0CE1B34D3C36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{865DA94F-1305-4827-B2D5-0CE1B34D3C36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{865DA94F-1305-4827-B2D5-0CE1B34D3C36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFD81240-24FC-4426-A4D3-022126EDC1D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFD81240-24FC-4426-A4D3-022126EDC1D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFD81240-24FC-4426-A4D3-022126EDC1D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFD81240-24FC-4426-A4D3-022126EDC1D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D72D65B8-B2BF-4874-AF0A-1641FE275033}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D72D65B8-B2BF-4874-AF0A-1641FE275033}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D72D65B8-B2BF-4874-AF0A-1641FE275033}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D72D65B8-B2BF-4874-AF0A-1641FE275033}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40BFEF41-B789-474E-B6AA-823E2C1356CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40BFEF41-B789-474E-B6AA-823E2C1356CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40BFEF41-B789-474E-B6AA-823E2C1356CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40BFEF41-B789-474E-B6AA-823E2C1356CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E3A7CC8-EE17-414C-80DE-BD90D6FAB40D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E3A7CC8-EE17-414C-80DE-BD90D6FAB40D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E3A7CC8-EE17-414C-80DE-BD90D6FAB40D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E3A7CC8-EE17-414C-80DE-BD90D6FAB40D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B163AD80-3E18-46E4-A06A-78A882A869B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B163AD80-3E18-46E4-A06A-78A882A869B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B163AD80-3E18-46E4-A06A-78A882A869B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B163AD80-3E18-46E4-A06A-78A882A869B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5C6707D-81A9-40FA-BCC5-BD2163EC09D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5C6707D-81A9-40FA-BCC5-BD2163EC09D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5C6707D-81A9-40FA-BCC5-BD2163EC09D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5C6707D-81A9-40FA-BCC5-BD2163EC09D0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

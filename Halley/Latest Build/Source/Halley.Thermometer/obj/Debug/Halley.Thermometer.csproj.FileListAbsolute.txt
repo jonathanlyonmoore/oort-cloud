@@ -1,0 +1,36 @@
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Latest Build\Source\Halley.Thermometer\bin\Debug\Halley.Thermometer.dll
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Latest Build\Source\Halley.Thermometer\bin\Debug\Halley.Thermometer.pdb
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Latest Build\Source\Halley.Thermometer\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Latest Build\Source\Halley.Thermometer\obj\Debug\Halley.Thermometer.Robot1Thermometer.resources
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Latest Build\Source\Halley.Thermometer\obj\Debug\Halley.Thermometer.Robot2Thermometer.resources
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Latest Build\Source\Halley.Thermometer\obj\Debug\Halley.Thermometer.Robot3Thermometer.resources
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Latest Build\Source\Halley.Thermometer\obj\Debug\Halley.Thermometer.Robot4Thermometer.resources
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Latest Build\Source\Halley.Thermometer\obj\Debug\Halley.Thermometer.Robot5Thermometer.resources
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Latest Build\Source\Halley.Thermometer\obj\Debug\Halley.Thermometer.Robot6Thermometer.resources
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Latest Build\Source\Halley.Thermometer\obj\Debug\Halley.Thermometer.csproj.GenerateResource.Cache
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Latest Build\Source\Halley.Thermometer\obj\Debug\Halley.Thermometer.dll
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Latest Build\Source\Halley.Thermometer\obj\Debug\Halley.Thermometer.pdb
+C:\Users\Joanna\Desktop\Latest Build\Source\Halley.Thermometer\bin\Debug\Halley.Thermometer.dll
+C:\Users\Joanna\Desktop\Latest Build\Source\Halley.Thermometer\bin\Debug\Halley.Thermometer.pdb
+C:\Users\Joanna\Desktop\Latest Build\Source\Halley.Thermometer\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Joanna\Desktop\Latest Build\Source\Halley.Thermometer\obj\Debug\Halley.Thermometer.Robot1Thermometer.resources
+C:\Users\Joanna\Desktop\Latest Build\Source\Halley.Thermometer\obj\Debug\Halley.Thermometer.Robot2Thermometer.resources
+C:\Users\Joanna\Desktop\Latest Build\Source\Halley.Thermometer\obj\Debug\Halley.Thermometer.Robot3Thermometer.resources
+C:\Users\Joanna\Desktop\Latest Build\Source\Halley.Thermometer\obj\Debug\Halley.Thermometer.Robot4Thermometer.resources
+C:\Users\Joanna\Desktop\Latest Build\Source\Halley.Thermometer\obj\Debug\Halley.Thermometer.Robot5Thermometer.resources
+C:\Users\Joanna\Desktop\Latest Build\Source\Halley.Thermometer\obj\Debug\Halley.Thermometer.Robot6Thermometer.resources
+C:\Users\Joanna\Desktop\Latest Build\Source\Halley.Thermometer\obj\Debug\Halley.Thermometer.csproj.GenerateResource.Cache
+C:\Users\Joanna\Desktop\Latest Build\Source\Halley.Thermometer\obj\Debug\Halley.Thermometer.dll
+C:\Users\Joanna\Desktop\Latest Build\Source\Halley.Thermometer\obj\Debug\Halley.Thermometer.pdb
+C:\Users\Jonathan Moore\v1.8\Personal\College\UVA\Software Engineering\Oort Cloud\Halley\Latest Build\Source\Halley.Thermometer\bin\Debug\Halley.Thermometer.dll
+C:\Users\Jonathan Moore\v1.8\Personal\College\UVA\Software Engineering\Oort Cloud\Halley\Latest Build\Source\Halley.Thermometer\bin\Debug\Halley.Thermometer.pdb
+C:\Users\Jonathan Moore\v1.8\Personal\College\UVA\Software Engineering\Oort Cloud\Halley\Latest Build\Source\Halley.Thermometer\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Jonathan Moore\v1.8\Personal\College\UVA\Software Engineering\Oort Cloud\Halley\Latest Build\Source\Halley.Thermometer\obj\Debug\Halley.Thermometer.Robot1Thermometer.resources
+C:\Users\Jonathan Moore\v1.8\Personal\College\UVA\Software Engineering\Oort Cloud\Halley\Latest Build\Source\Halley.Thermometer\obj\Debug\Halley.Thermometer.Robot2Thermometer.resources
+C:\Users\Jonathan Moore\v1.8\Personal\College\UVA\Software Engineering\Oort Cloud\Halley\Latest Build\Source\Halley.Thermometer\obj\Debug\Halley.Thermometer.Robot3Thermometer.resources
+C:\Users\Jonathan Moore\v1.8\Personal\College\UVA\Software Engineering\Oort Cloud\Halley\Latest Build\Source\Halley.Thermometer\obj\Debug\Halley.Thermometer.Robot4Thermometer.resources
+C:\Users\Jonathan Moore\v1.8\Personal\College\UVA\Software Engineering\Oort Cloud\Halley\Latest Build\Source\Halley.Thermometer\obj\Debug\Halley.Thermometer.Robot5Thermometer.resources
+C:\Users\Jonathan Moore\v1.8\Personal\College\UVA\Software Engineering\Oort Cloud\Halley\Latest Build\Source\Halley.Thermometer\obj\Debug\Halley.Thermometer.Robot6Thermometer.resources
+C:\Users\Jonathan Moore\v1.8\Personal\College\UVA\Software Engineering\Oort Cloud\Halley\Latest Build\Source\Halley.Thermometer\obj\Debug\Halley.Thermometer.csproj.GenerateResource.Cache
+C:\Users\Jonathan Moore\v1.8\Personal\College\UVA\Software Engineering\Oort Cloud\Halley\Latest Build\Source\Halley.Thermometer\obj\Debug\Halley.Thermometer.dll
+C:\Users\Jonathan Moore\v1.8\Personal\College\UVA\Software Engineering\Oort Cloud\Halley\Latest Build\Source\Halley.Thermometer\obj\Debug\Halley.Thermometer.pdb

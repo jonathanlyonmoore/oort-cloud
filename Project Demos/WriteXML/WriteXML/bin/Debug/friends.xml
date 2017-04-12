@@ -1,0 +1,10 @@
+<FriendsList>
+  <Friend>
+    <Name>David</Name>
+    <Age>?</Age>
+  </Friend>
+  <Friend>
+    <Name>Joanna</Name>
+    <Age>18</Age>
+  </Friend>
+</FriendsList>

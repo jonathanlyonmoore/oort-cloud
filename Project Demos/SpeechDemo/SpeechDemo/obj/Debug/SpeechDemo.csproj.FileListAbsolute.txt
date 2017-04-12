@@ -1,0 +1,27 @@
+C:\Users\Jonathan Moore\Desktop\SpeechDemo\SpeechDemo\bin\Debug\SpeechDemo.exe
+C:\Users\Jonathan Moore\Desktop\SpeechDemo\SpeechDemo\bin\Debug\SpeechDemo.pdb
+C:\Users\Jonathan Moore\Desktop\SpeechDemo\SpeechDemo\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Jonathan Moore\Desktop\SpeechDemo\SpeechDemo\obj\Debug\SpeechDemo.Form1.resources
+C:\Users\Jonathan Moore\Desktop\SpeechDemo\SpeechDemo\obj\Debug\SpeechDemo.Properties.Resources.resources
+C:\Users\Jonathan Moore\Desktop\SpeechDemo\SpeechDemo\obj\Debug\SpeechDemo.csproj.GenerateResource.Cache
+C:\Users\Jonathan Moore\Desktop\SpeechDemo\SpeechDemo\obj\Debug\SpeechDemo.exe
+C:\Users\Jonathan Moore\Desktop\SpeechDemo\SpeechDemo\obj\Debug\SpeechDemo.pdb
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\SpeechDemo\SpeechDemo\obj\Debug\SpeechDemo.exe
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\SpeechDemo\SpeechDemo\obj\Debug\SpeechDemo.pdb
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\SpeechDemo\SpeechDemo\bin\Debug\SpeechDemo.exe
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\SpeechDemo\SpeechDemo\bin\Debug\SpeechDemo.pdb
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\SpeechDemo\SpeechDemo\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\SpeechDemo\SpeechDemo\obj\Debug\SpeechDemo.Form1.resources
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\SpeechDemo\SpeechDemo\obj\Debug\SpeechDemo.Properties.Resources.resources
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\SpeechDemo\SpeechDemo\obj\Debug\SpeechDemo.csproj.GenerateResource.Cache
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Project Demos\SpeechDemo\SpeechDemo\obj\Debug\SpeechDemo.exe
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Project Demos\SpeechDemo\SpeechDemo\obj\Debug\SpeechDemo.pdb
+C:\v1.9\Education\College\UVA\Software Engineering\Oort Cloud\Project Demos\SpeechDemo\SpeechDemo\obj\Debug\SpeechDemo.exe
+C:\v1.9\Education\College\UVA\Software Engineering\Oort Cloud\Project Demos\SpeechDemo\SpeechDemo\obj\Debug\SpeechDemo.pdb
+C:\v1.9\Education\College\UVA\Software Engineering\Oort Cloud\Project Demos\SpeechDemo\SpeechDemo\bin\Debug\SpeechDemo.exe
+C:\v1.9\Education\College\UVA\Software Engineering\Oort Cloud\Project Demos\SpeechDemo\SpeechDemo\bin\Debug\SpeechDemo.pdb
+C:\v1.9\Education\College\UVA\Software Engineering\Oort Cloud\Project Demos\SpeechDemo\SpeechDemo\obj\Debug\ResolveAssemblyReference.cache
+C:\v1.9\Education\College\UVA\Software Engineering\Oort Cloud\Project Demos\SpeechDemo\SpeechDemo\obj\Debug\SpeechDemo.Form1.resources
+C:\v1.9\Education\College\UVA\Software Engineering\Oort Cloud\Project Demos\SpeechDemo\SpeechDemo\obj\Debug\SpeechDemo.Properties.Resources.resources
+C:\v1.9\Education\College\UVA\Software Engineering\Oort Cloud\Project Demos\SpeechDemo\SpeechDemo\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\v1.9\Education\College\UVA\Software Engineering\Oort Cloud\Project Demos\SpeechDemo\SpeechDemo\obj\Debug\GenerateResource-ResGen.write.1.tlog

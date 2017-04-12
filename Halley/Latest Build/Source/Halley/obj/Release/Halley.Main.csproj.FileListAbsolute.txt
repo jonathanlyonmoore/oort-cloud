@@ -1,0 +1,59 @@
+C:\Users\Jonathan Moore\Desktop\Halley 1.0.2.4\Halley\Source\Halley\obj\Release\Halley.exe
+C:\Users\Jonathan Moore\Desktop\Halley 1.0.2.4\Halley\Source\Halley\obj\Release\Halley.pdb
+C:\Users\Jonathan Moore\Desktop\Halley 1.0.2.4\Halley\Source\Halley\bin\Release\Halley.exe.manifest
+C:\Users\Jonathan Moore\Desktop\Halley 1.0.2.4\Halley\Source\Halley\bin\Release\Halley.application
+C:\Users\Jonathan Moore\Desktop\Halley 1.0.2.4\Halley\Source\Halley\bin\Release\Halley.exe
+C:\Users\Jonathan Moore\Desktop\Halley 1.0.2.4\Halley\Source\Halley\bin\Release\Halley.pdb
+C:\Users\Jonathan Moore\Desktop\Halley 1.0.2.4\Halley\Source\Halley\bin\Release\Halley.Sensors.dll
+C:\Users\Jonathan Moore\Desktop\Halley 1.0.2.4\Halley\Source\Halley\bin\Release\Halley.Sensors.pdb
+C:\Users\Jonathan Moore\Desktop\Halley 1.0.2.4\Halley\Source\Halley\bin\Release\Halley.Sensors.xml
+C:\Users\Jonathan Moore\Desktop\Halley 1.0.2.4\Halley\Source\Halley\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Jonathan Moore\Desktop\Halley 1.0.2.4\Halley\Source\Halley\obj\Release\Halley.MainForm.resources
+C:\Users\Jonathan Moore\Desktop\Halley 1.0.2.4\Halley\Source\Halley\obj\Release\Halley.Properties.Resources.resources
+C:\Users\Jonathan Moore\Desktop\Halley 1.0.2.4\Halley\Source\Halley\obj\Release\Halley.Main.csproj.GenerateResource.Cache
+C:\Users\Jonathan Moore\Desktop\Halley 1.0.2.4\Halley\Source\Halley\obj\Release\Halley.TrustInfo.xml
+C:\Users\Jonathan Moore\Desktop\Halley 1.0.2.4\Halley\Source\Halley\obj\Release\Halley.exe.manifest
+C:\Users\Jonathan Moore\Desktop\Halley 1.0.2.4\Halley\Source\Halley\obj\Release\Halley.application
+C:\Users\Jonathan Moore\Desktop\Halley 1.0.2.4\Halley\Source\Halley\bin\Release\Halley.XML
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Source\Halley\bin\Release\Halley.exe.manifest
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Source\Halley\bin\Release\Halley.application
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Source\Halley\bin\Release\Halley.exe
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Source\Halley\bin\Release\Halley.pdb
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Source\Halley\bin\Release\Halley.Sensors.dll
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Source\Halley\bin\Release\Halley.Sensors.pdb
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Source\Halley\bin\Release\Halley.Sensors.xml
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Source\Halley\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Source\Halley\obj\Release\Halley.MainForm.resources
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Source\Halley\obj\Release\Halley.Properties.Resources.resources
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Source\Halley\obj\Release\Halley.Main.csproj.GenerateResource.Cache
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Source\Halley\obj\Release\Halley.TrustInfo.xml
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Source\Halley\obj\Release\Halley.exe.manifest
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Source\Halley\obj\Release\Halley.application
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Source\Halley\obj\Release\Halley.exe
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Source\Halley\obj\Release\Halley.pdb
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Source\Halley\bin\Release\Halley.Battery.dll
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Source\Halley\bin\Release\Halley.Battery.pdb
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Source\Halley\bin\Release\Halley.Battery.xml
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Source\Halley\bin\Release\Halley.XML
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Latest Build\Source\Halley\bin\Release\Halley.exe.manifest
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Latest Build\Source\Halley\bin\Release\Halley.application
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Latest Build\Source\Halley\bin\Release\Halley.XML
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Latest Build\Source\Halley\bin\Release\Halley.exe
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Latest Build\Source\Halley\bin\Release\Halley.pdb
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Latest Build\Source\Halley\bin\Release\Halley.About.pdb
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Latest Build\Source\Halley\bin\Release\Halley.Battery.pdb
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Latest Build\Source\Halley\bin\Release\Halley.Radiation.pdb
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Latest Build\Source\Halley\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Latest Build\Source\Halley\obj\Release\Halley.MainForm.resources
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Latest Build\Source\Halley\obj\Release\Halley.Properties.Resources.resources
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Latest Build\Source\Halley\obj\Release\Halley.Main.csproj.GenerateResource.Cache
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Latest Build\Source\Halley\obj\Release\Halley.TrustInfo.xml
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Latest Build\Source\Halley\obj\Release\Halley.exe.manifest
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Latest Build\Source\Halley\obj\Release\Halley.application
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Latest Build\Source\Halley\obj\Release\Halley.exe
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Latest Build\Source\Halley\obj\Release\Halley.pdb
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Latest Build\Source\Halley\bin\Release\Halley.Slope.pdb
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Latest Build\Source\Halley\bin\Release\Halley.Compressability.pdb
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Latest Build\Source\Halley\bin\Release\Halley.Thermometer.pdb
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Latest Build\Source\Halley\bin\Release\Halley.About.xml
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Latest Build\Source\Halley\bin\Release\Halley.Battery.xml

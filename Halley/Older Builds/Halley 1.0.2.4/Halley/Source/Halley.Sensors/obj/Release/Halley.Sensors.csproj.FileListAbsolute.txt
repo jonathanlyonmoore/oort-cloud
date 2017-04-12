@@ -1,0 +1,5 @@
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Source\Halley.Sensors\bin\Release\Halley.Sensors.dll
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Source\Halley.Sensors\bin\Release\Halley.Sensors.pdb
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Source\Halley.Sensors\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Source\Halley.Sensors\obj\Release\Halley.Sensors.dll
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Source\Halley.Sensors\obj\Release\Halley.Sensors.pdb

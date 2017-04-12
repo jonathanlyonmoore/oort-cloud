@@ -1,0 +1,20 @@
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Source\Halley\bin\Release\Halley.exe.manifest
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Source\Halley\bin\Release\Halley.application
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Source\Halley\bin\Release\Halley.exe
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Source\Halley\bin\Release\Halley.pdb
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Source\Halley\bin\Release\Halley.Sensors.dll
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Source\Halley\bin\Release\Halley.Sensors.pdb
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Source\Halley\bin\Release\Halley.Sensors.xml
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Source\Halley\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Source\Halley\obj\Release\Halley.MainForm.resources
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Source\Halley\obj\Release\Halley.Properties.Resources.resources
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Source\Halley\obj\Release\Halley.Main.csproj.GenerateResource.Cache
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Source\Halley\obj\Release\Halley.TrustInfo.xml
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Source\Halley\obj\Release\Halley.exe.manifest
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Source\Halley\obj\Release\Halley.application
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Source\Halley\obj\Release\Halley.exe
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Source\Halley\obj\Release\Halley.pdb
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Source\Halley\bin\Release\Halley.XML
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Older Builds\Halley 1.0.2.4\Halley\Source\Halley\bin\Release\Halley.XML
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Older Builds\Halley 1.0.2.4\Halley\Source\Halley\obj\Release\Halley.exe
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Older Builds\Halley 1.0.2.4\Halley\Source\Halley\obj\Release\Halley.pdb

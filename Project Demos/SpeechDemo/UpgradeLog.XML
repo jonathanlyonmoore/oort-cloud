@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="SpeechDemo">
+</Property><Property Name="Solution File" Value="C:\v1.9\Education\College\UVA\Software Engineering\Oort Cloud\Project Demos\SpeechDemo\SpeechDemo.sln">
+</Property><Property Name="Date" Value="Saturday, January 30, 2010">
+</Property><Property Name="Time" Value="23:13 PM">
+</Property></Properties><Event ErrorLevel="0" Project="SpeechDemo" Source="SpeechDemo\SpeechDemo.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="SpeechDemo" Source="SpeechDemo\SpeechDemo.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="SpeechDemo.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="SpeechDemo.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SpeechDemo" Source="SpeechDemo\SpeechDemo.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

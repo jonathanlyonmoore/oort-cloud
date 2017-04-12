@@ -1,0 +1,7 @@
+C:\Matrix\MatrixSampleCS\MatrixSampleCS\obj\Debug\MatrixSampleCS.exe
+C:\Matrix\MatrixSampleCS\MatrixSampleCS\obj\Debug\MatrixSampleCS.pdb
+C:\Matrix\MatrixSampleCS\MatrixSampleCS\bin\Debug\MatrixSampleCS.exe
+C:\Matrix\MatrixSampleCS\MatrixSampleCS\bin\Debug\MatrixSampleCS.pdb
+C:\Matrix\MatrixSampleCS\MatrixSampleCS\obj\Debug\ResolveAssemblyReference.cache
+C:\Matrix\MatrixSampleCS\MatrixSampleCS\obj\Debug\MatrixSampleCS.Form1.resources
+C:\Matrix\MatrixSampleCS\MatrixSampleCS\obj\Debug\MatrixSampleCS.csproj.GenerateResource.Cache

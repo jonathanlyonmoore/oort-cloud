@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='windows-1252'?>
+<Wix xmlns='http://schemas.microsoft.com/wix/2006/wi'>
+  <Product Name='Halley' Id='46114FA4-F7D5-402e-99CC-943E09628A5D'
+    Language='1033' Codepage='1252'
+    Version='1.0.0' Manufacturer='Oort Cloud' UpgradeCode='6B9E7760-B3D7-41b0-9578-D22B3181A40F'>
+    <Package Keywords='Installer'
+      Description="Halley Installer"
+      Comments='Halley is a registered trademark of Oort Cloud.' Manufacturer='Nasa'
+      InstallerVersion='100' Languages='1033' Compressed='yes' SummaryCodepage='1252' />
+    <Media Id='1' Cabinet='product.cab' EmbedCab='yes' />
+    <Property Id='DiskPrompt' Value="Halley Installation [1]"  />
+
+    <Directory Id='TARGETDIR' Name='SourceDir'>
+      <Directory Id='ProgramFilesFolder' Name='PFiles'> 
+          
+          
+          
+            
+          <!--The Root Directory for Halley-->
+          <Directory Id='HALLEY' Name='Halley' >
+            <Component Id='HalleyFolder' Guid='53C11AC9-8BF4-4035-94B7-6FD473D9ED67'>
+              <File Id ='HAL'  Name ='Halley.exe' DiskId='1' Source ='Source\Halley\bin\Release\Halley.exe' Vital ='yes'/>
+              <File Id ='About' Name='Halley.About.dll' DiskId='1' Source='Source\Halley.About\bin\Release\Halley.About.dll' Vital ='yes'/>
+              <File Id ='Battery' Name='Halley.Battery.dll' DiskId='1' Source='Source\Halley.Battery\bin\Release\Halley.Battery.dll' Vital ='yes'/>
+              <File Id ='Memory' Name='Halley.Memory.dll' DiskId='1' Source='Source\Halley.Memory\bin\Release\Halley.Memory.dll' Vital ='yes'/>
+              <File Id ='Sensors' Name='Halley.Sensors.dll' DiskId='1' Source='Source\Halley.Sensors\bin\Release\Halley.Sensors.dll' Vital ='yes'/>
+              <CreateFolder/>
+            </Component >
+            
+            <!--The Directory for the Documentation-->
+            <Directory Id='HELPDIR' Name='Help'>
+              <Component Id='HelpFolder' Guid='C61386DB-1DB5-4d8d-BBCB-FA1E19766053'>
+                <File Id ='Help' Name='Halley.chm' DiskId='1' Source='Source\Help\Halley.chm' Vital ='yes'/>
+                <CreateFolder/>
+              </Component>
+            </Directory>
+            
+          </Directory>
+
+          
+          
+       
+        
+      </Directory>
+      <!--End of Program Files Directory-->
+
+      
+            
+    </Directory >
+    <!--End of TARGETDIR-->
+
+    
+
+
+    
+
+   
+    
+
+    <Feature Id='Complete' Title='Halley' Description='The complete package.' TypicalDefault='install' Display='expand' Level='1' ConfigurableDirectory='HALLEY'>
+      <Feature Id='HALL' Title='Halley Program' Description='The Halley Program' TypicalDefault='install' Level='1'>
+        <ComponentRef Id='HalleyFolder' />
+      </Feature>
+      <Feature Id='Help' Title='Help' Description='Documentation' Level='1'>
+        <ComponentRef Id='HelpFolder' />        
+      </Feature>
+      
+	        
+	    </Feature>
+   
+
+    <AdminExecuteSequence/>
+    
+    
+    
+    <InstallExecuteSequence>
+      
+      
+    </InstallExecuteSequence>
+    
+    <UIRef Id="WixUI_Mondo"/>
+  </Product>
+</Wix>

@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D72D65B8-B2BF-4874-AF0A-1641FE275033}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Halley.Battery</RootNamespace>
+    <AssemblyName>Halley.Battery</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>BatteryForm.snk</AssemblyOriginatorKeyFile>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Release\Halley.Battery.xml</DocumentationFile>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Robot1BatteryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Robot1BatteryForm.Designer.cs">
+      <DependentUpon>Robot1BatteryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Robot2BatteryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Robot2BatteryForm.Designer.cs">
+      <DependentUpon>Robot2BatteryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Robot3BatteryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Robot3BatteryForm.Designer.cs">
+      <DependentUpon>Robot3BatteryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Robot4BatteryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Robot4BatteryForm.Designer.cs">
+      <DependentUpon>Robot4BatteryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Robot5BatteryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Robot5BatteryForm.Designer.cs">
+      <DependentUpon>Robot5BatteryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Robot6BatteryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Robot6BatteryForm.Designer.cs">
+      <DependentUpon>Robot6BatteryForm.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Robot1BatteryForm.resx">
+      <DependentUpon>Robot1BatteryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Robot2BatteryForm.resx">
+      <DependentUpon>Robot2BatteryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Robot3BatteryForm.resx">
+      <DependentUpon>Robot3BatteryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Robot4BatteryForm.resx">
+      <DependentUpon>Robot4BatteryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Robot5BatteryForm.resx">
+      <DependentUpon>Robot5BatteryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Robot6BatteryForm.resx">
+      <DependentUpon>Robot6BatteryForm.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BatteryForm.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\battery.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.VisualBasic.PowerPacks.10.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft Visual Basic PowerPacks 10.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

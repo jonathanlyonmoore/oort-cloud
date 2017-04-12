@@ -1,0 +1,7 @@
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Source\Battery\bin\Release\Battery.dll
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Source\Battery\bin\Release\Battery.pdb
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Source\Battery\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Source\Battery\obj\Release\Battery.csproj.GenerateResource.Cache
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Source\Battery\obj\Release\Battery.dll
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Source\Battery\obj\Release\Battery.pdb
+C:\Users\Jonathan Moore\Desktop\Oort Cloud\Halley\Source\Battery\obj\Release\Halley.Battery.Robot1BatteryForm.resources

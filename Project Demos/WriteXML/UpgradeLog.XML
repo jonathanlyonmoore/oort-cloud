@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="WriteXML">
+</Property><Property Name="Solution File" Value="S:\University\CS\Lectures\Software Engineering\Oort Cloud\Project Demos\WriteXML\WriteXML.sln">
+</Property><Property Name="Date" Value="Friday, June 14, 2013">
+</Property><Property Name="Time" Value="22:15 PM">
+</Property></Properties><Event ErrorLevel="0" Project="WriteXML" Source="WriteXML\WriteXML.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="WriteXML" Source="WriteXML\WriteXML.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="WriteXML.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="WriteXML.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="WriteXML" Source="WriteXML\WriteXML.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

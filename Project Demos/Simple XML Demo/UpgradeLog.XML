@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="ConsoleApplication1">
+</Property><Property Name="Solution File" Value="S:\University\CS\Lectures\Software Engineering\Oort Cloud\Project Demos\Simple XML Demo\ConsoleApplication1.sln">
+</Property><Property Name="Date" Value="Friday, June 14, 2013">
+</Property><Property Name="Time" Value="22:18 PM">
+</Property></Properties><Event ErrorLevel="0" Project="ConsoleApplication1" Source="ConsoleApplication1\ConsoleApplication1.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ConsoleApplication1" Source="ConsoleApplication1\ConsoleApplication1.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="ConsoleApplication1.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="ConsoleApplication1.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ConsoleApplication1" Source="ConsoleApplication1\ConsoleApplication1.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<CDList>
+  <CD>
+    <Title>U2</Title>
+    <Price>$29,99</Price>
+  </CD>
+  <CD>
+    <Title>Nine Inch Nails</Title>
+    <Price>$19,99</Price>
+  </CD>
+</CDList> 
